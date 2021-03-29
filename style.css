@@ -1,49 +1,76 @@
 *{
 	margin: 0;
 	font-family: sans-serif;
+	letter-spacing: 5px;
 }
 
 header{
-	background-color: blue;
-	height: 70px;
+	/* background-color: blue; */
+	border: solid white 2px;
+	border-top: 0px;
+	border-radius: 0px 0px 10px 10px;
+	height: 50px;
 	box-sizing: border-box;
+	padding: 17px;
 	position: absolute;
-	width: 100%;
-}
-
-#title{
-	margin-top: 25px;
-	margin-left: 50px;
-	position: absolute;
-	text-transform: uppercase;
-	color: white;
-}
-
-header nav{
-	background-color: blueviolet;
-	width: 100%;
-	height: 30px;
-	position: absolute;
-	margin-top: 70px;
-	box-sizing: border-box;
-	padding: 5px;
+	width: 30%;
+	right: 0;
+	left: 0;
+	margin: auto;
+	box-shadow: rgb(0, 0, 0) 0px 0px 50px;
 }
 
 header nav ul li{
 	display: inline-block;
-	margin-right: 40px;
-	
+	text-align: center;
+	width: 30%;
+	font-weight: 500;
 }
 
 header a{
 	text-decoration: unset;
-	color: white;
+	color: rgb(255, 255, 255);
+}
+
+header a:hover{
+	color: rgb(231, 231, 231);
 }
 
 
-main{
+
+#hero-title{
+	text-align: center;
 	background-image: url(will-turner-GTPT_fNFQiE-unsplash.jpg);
-	background-size: cover;
-	height: 3990px;
-	background-position: 50% 10%;
+	background-position: 60% 10%;
+	height: 500px;
+	box-sizing: border-box;
+	padding-top: 200px;
+	color: white;
+	font-size: 120%;
+}
+
+#title, p{
+	text-shadow: rgb(0, 0, 0) 0px 10px 10px;
+}
+
+#first-section{
+	text-align: center;
+	background-image: url(andrea-orsini-DF8Tr3jssuU-unsplash.jpg);
+	background-position: 50% 55%;
+	height: 500px;
+	box-sizing: border-box;
+	padding-top: 200px;
+	color: white;
+	font-size: 120%;
+}
+
+#second-section{
+	text-align: center;
+	background-image: url(jerry-wang-dO0hj3Oxm20-unsplash.jpg);
+	background-position: 50% 55%;
+	height: 500px;
+	box-sizing: border-box;
+	padding-top: 200px;
+	color: white;
+	font-size: 120%;
 }
