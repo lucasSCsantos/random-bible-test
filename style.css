@@ -42,37 +42,45 @@ header a:hover{
 	text-align: center;
 	background-image: url(will-turner-GTPT_fNFQiE-unsplash.jpg);
 	background-position: 60% 10%;
-	height: 500px;
+	height: 1472px;
 	box-sizing: border-box;
 	padding-top: 200px;
 	color: white;
 	font-size: 120%;
+	vertical-align: middle;
 }
 
-.titles p{
-	text-shadow: rgb(0, 0, 0) 0px 0px 15px;
-}
-
-#first-section{
+button{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
-	background-image: url(andrea-orsini-DF8Tr3jssuU-unsplash.jpg);
-	background-position: 50% 55%;
-	height: 500px;
-	box-sizing: border-box;
-	padding-top: 200px;
-	color: white;
-	font-size: 120%;
-	box-shadow: rgba(0, 0, 0, 0.295) 0 -5px 10px;
+	left: 0;
+	right: 0;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5px;
+	height:50px;
+	width: 250px;
+	border: 0px;
 }
 
-#second-section{
-	text-align: center;
-	background-image: url(jerry-wang-dO0hj3Oxm20-unsplash.jpg);
-	background-position: 50% 55%;
-	height: 500px;
-	box-sizing: border-box;
-	padding-top: 200px;
-	color: white;
-	font-size: 120%;
-	box-shadow: rgba(0, 0, 0, 0.295) 0 -5px 10px;
+#hero-title button:hover{
+	height: 60px;
+	width: 270px;
 }
+
+
+#title {
+	text-shadow: rgba(0, 0, 0, 0.384) 0px 0px 15px;
+	font-size: 80px;
+	margin-top: 10vw;
+	text-transform: uppercase;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#subtitle {
+	text-shadow: rgba(0, 0, 0, 0.384) 0px 0px 15px;
+	font-size: 30px;
+}
+
